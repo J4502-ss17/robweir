@@ -13,26 +13,21 @@ h1 {
     font-family: Georgia, "Times New Roman", serif;
 }
 
-body{
-	background-color:#ebe3ce;
-}
-
 #container{
     width: 95%;
-    background-color: #ffffff;
     margin: 0 auto;
 }
 
 #nav {
     padding: 0;
+	list-style-type: none;
 }
 
 #nav li {
-    list-style-type: none;
-    float: left;
     margin: 0;
     padding: 0;
-    width: 25%;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
 }
 
 #nav a:link, a:visited {
@@ -64,4 +59,8 @@ body{
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
+}
+
+img {
+	border: none; 
 }
